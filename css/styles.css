@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto', sans-serif;
+    color: #434455;
 }
 ul { list-style-type: none;}
 a { text-decoration: none;}
@@ -24,14 +25,13 @@ a { text-decoration: none;}
 }
 .menu-link:hover, .menu-link:active {color: #404bbf;}
 .contacts {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #434455;
     font-style: normal;
 }
-.contacts:hover { color: #404bbf;}
+.contacts:hover, .contacts:focus { color: #404bbf;}
 
 .main {background: #2e2f42;}
 .main-title {
@@ -49,6 +49,7 @@ a { text-decoration: none;}
     letter-spacing: 0.04em;
     color: #fff;
     background: #4d5ae5;
+    cursor: pointer;
 }
 .main-button:hover {background: #404bbf;}
 
@@ -60,11 +61,9 @@ a { text-decoration: none;}
     color: #2e2f42;
 }
 .text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .team {background: #f4f4fd;}
@@ -84,12 +83,10 @@ a { text-decoration: none;}
     color: #2e2f42;
 }
 .team-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     text-align: center;
-    color: #434455;
 }
 
 .portfolio-title {
@@ -108,16 +105,13 @@ a { text-decoration: none;}
     color: #2e2f42;
 }
 .portfolio-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
-    color: #434455;
 }
 
 .footer {background: #2e2f42;}
 .footer-text {
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
